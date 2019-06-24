@@ -25,6 +25,9 @@ Using AST based tools is super slow on big files, and to out knowledge there is 
 ## Previous work
 * [nsams/sourcemap-aware-replace](https://github.com/nsams/sourcemap-aware-replace) - supports only string → string replacement, _O(n²)_
 
+## License
+MIT
+
 <!-- links -->
 
 [string.prototype.replace]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
