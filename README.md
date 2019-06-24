@@ -22,6 +22,9 @@ The main motivation is inlining translations in the bundles, so replacing `const
 
 Using AST based tools is super slow on big files, and to out knowledge there is no source-map aware replace implementation.
 
+## Previous work
+* [nsams/sourcemap-aware-replace](https://github.com/nsams/sourcemap-aware-replace) - supports only string → string replacement, _O(n²)_
+
 <!-- links -->
 
 [string.prototype.replace]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
