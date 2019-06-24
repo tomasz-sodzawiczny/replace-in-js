@@ -1,6 +1,6 @@
 # replace-in-js
 
-[Source Map] aware replace for JS files. Dedicated for quick adjustments of values inside bundles or compile-time function execution (especially translation inlining).
+[Source Map v3] aware replace for JS files. Dedicated for quick adjustments of values inside bundles or compile-time function execution (especially translation inlining).
 
 Works in _O(n)_ (where _n_ is source file size).
 
@@ -25,4 +25,4 @@ Using AST based tools is super slow on big files, and to out knowledge there is 
 <!-- links -->
 
 [string.prototype.replace]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
-[source map]: https://docs.google.com/document/d/1U1RGAehQwRypUTovF1KRlpiOFze0b-_2gc6fAH0KY0k
+[source map v3]: https://docs.google.com/document/d/1U1RGAehQwRypUTovF1KRlpiOFze0b-_2gc6fAH0KY0k
